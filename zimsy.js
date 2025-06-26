@@ -61,7 +61,7 @@ Zimsy.prototype._createButton = function(title, cssClass, callback) {
 }
 
 Zimsy.prototype._renderFooterButtons = function() {
-    if (this._modalFooter && this._footerContent) {
+    if (this._modalFooter) {
         this._footerButtons.forEach((button) => {
             this._modalFooter.append(button);
         })
