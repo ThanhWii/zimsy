@@ -36,7 +36,7 @@ Zimsy.prototype._getScrollbarWidth = function() {
 }
 
 Zimsy.prototype._renderFooterContent = function() {
-    if (this._modalFooter) {
+    if (this._modalFooter && this._footerContent) {
         this._modalFooter.innerHTML = this._footerContent;
     }
 }
